@@ -51,9 +51,13 @@ export function Hero() {
           <div className="relative mt-14 overflow-hidden rounded-2xl">
             <img
               src={IMAGES.heroLandscape}
+              srcSet={`${IMAGES.heroLandscapeMobile} 640w, ${IMAGES.heroLandscape} 1440w`}
+              sizes="(max-width: 640px) calc(100vw - 3rem), (max-width: 1440px) calc(100vw - 5rem), 1360px"
               alt="Herdsman operating a drone while monitoring cattle on a farm"
               className="h-[320px] w-full object-cover sm:h-[420px] lg:h-[560px]"
               loading="eager"
+              fetchPriority="high"
+              decoding="async"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-ink/35 via-transparent to-transparent" />
 

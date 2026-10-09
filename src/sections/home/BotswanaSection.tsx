@@ -8,6 +8,8 @@ export function BotswanaSection() {
         src={IMAGES.botswanaLandscape}
         alt="Cattle standing in the open grassland of rural Botswana"
         className="h-[480px] w-full object-cover sm:h-[560px] lg:h-[640px]"
+        loading="lazy"
+        decoding="async"
       />
       <div className="absolute inset-0 bg-gradient-to-t from-ink/80 via-ink/20 to-transparent" />
 

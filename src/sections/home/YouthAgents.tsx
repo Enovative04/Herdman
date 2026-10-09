@@ -19,6 +19,8 @@ export function YouthAgents() {
                 src={IMAGES.youthAgent}
                 alt="Young agricultural agent engaging with a local farmer"
                 className="h-[420px] w-full object-cover sm:h-[520px]"
+                loading="lazy"
+                decoding="async"
               />
             </div>
           </div>

@@ -45,6 +45,8 @@ export function About() {
                   src={IMAGES.aboutFarmer}
                   alt="Two herdsmen reviewing cattle information on a tablet beside their herd"
                   className="h-full w-full object-cover transition-transform duration-700 hover:scale-105"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
             </Reveal>

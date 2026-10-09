@@ -5,12 +5,13 @@
  */
 
 export const IMAGES = {
-  heroLandscape: "/herdsman-drone-cattle.jpg",
-  aboutFarmer: "/men-reviewing-cattle-data.jpg",
-  recordsFarmer: "/farmer-using-tablet-field.jpg",
-  servicesVet: "/herdsman-checking-cow.jpg",
-  decisionsHerder: "/consultant-advising-rancher.jpg",
-  youthAgent: "/drone-training-program.jpg",
+  heroLandscape: "/hero-drone-cattle-1440.webp",
+  heroLandscapeMobile: "/hero-drone-cattle-640.webp",
+  aboutFarmer: "/about-cattle-data.webp",
+  recordsFarmer: "/precision-farming.webp",
+  servicesVet: "/livestock-management.webp",
+  decisionsHerder: "/agricultural-consultancy.webp",
+  youthAgent: "/training-programs.webp",
   rancherPortrait:
     "https://images.pexels.com/photos/34003794/pexels-photo-34003794.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1400&w=1100",
   botswanaLandscape:

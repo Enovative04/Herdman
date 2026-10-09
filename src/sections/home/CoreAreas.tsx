@@ -48,6 +48,8 @@ export function CoreAreas() {
                     src={area.image}
                     alt={area.title}
                     className="h-[280px] w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    loading="lazy"
+                    decoding="async"
                   />
                 </div>
                 <div className="mt-6 flex items-start justify-between border-t border-line pt-5">
